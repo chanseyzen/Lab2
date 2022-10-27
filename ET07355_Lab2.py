@@ -1,6 +1,6 @@
 print("ET0735 (DevOps for AIoT) - Lab 2 - Introduction to Python lol")
 
-"""def calculate_bmi(height, weight):
+"""def calculate_bmi(height, weight): ex 2
     print("Height = " + str(height))
     print("Weight = " + str(weight))
 #Add code here to calculate BMI
@@ -15,7 +15,9 @@ print("ET0735 (DevOps for AIoT) - Lab 2 - Introduction to Python lol")
         print("OverWeight")
 
 calculate_bmi(weight=70, height=1.73)"""
-def main():
+
+
+"""def main(): ex 3
     display_main_menu()
     get_user_input()
 
@@ -31,5 +33,15 @@ def get_user_input():
 
     print(z)
 
-main()
+main()"""
+
+def main():
+    calc_average_temperature()
+    calc_min_max_temperature()
+
+def calc_average_temperature():
+    print("Please enter your temperature :")
+    x = input()
+
+
 

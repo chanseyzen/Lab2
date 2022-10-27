@@ -31,7 +31,7 @@ def get_user_input():
 
     z = [float(a) for a in y ]
 
-    print(z)
+    print(z).
 
 main()"""
 
